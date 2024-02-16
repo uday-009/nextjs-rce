@@ -31,3 +31,36 @@
     @apply opacity-100;
   }
 }
+
+
+.accordion-item {
+  border: 0px;
+  border-bottom: 1px solid #4a6cf7;
+  overflow: hidden;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-title {
+  margin: 0;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-icon.open {
+  transform: rotate(90deg);
+}
+
+
+.accordion-item.open .accordion-header{
+  background-color: #4a6cf7;
+  color: #fff;
+}
+

@@ -28,7 +28,7 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "24/7 Managed Services (MCS)",
-    path:"/mcs",
+    path:"/24-7-365-managed-cybersecurity-service",
     newTab: false,
     // submenu: [
     //   {
@@ -84,13 +84,13 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "CISO As A Service (CISOaaS)",
-    path: "/contact",
+    path: "/ciso-as-a-service-virtual_ciso",
     newTab: false,
   },
   {
     id: 5,
     title: "Resource Solutions",
-    path: "/contact",
+    path: "/it-cybersecurity-resources",
     newTab: false,
   },
   
