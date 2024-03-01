@@ -35,7 +35,7 @@
 
 .accordion-item {
   border: 0px;
-  border-bottom: 1px solid #4a6cf7;
+  /* border-bottom: 1px solid #4a6cf7; */
   overflow: hidden;
 }
 

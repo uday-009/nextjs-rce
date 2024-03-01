@@ -17,14 +17,13 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Guardians of the World’s Most Sensitive Data
+                  Empowering Your IT and Cybersecurity Journey
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  In today’s rapidly evolving threat landscape, ensuring robust
-                  cybersecurity is a formidable task for organizations.
-                  Traditional reactive approaches, where resources are allocated
-                  to defend against well-known threats, are no longer
-                  sufficient.
+                  Relate Central is your trusted partner for all your IT and
+                  cybersecurity needs, offering a wide range of services to help
+                  you strengthen your defenses, mitigate risks, and protect your
+                  business from cyber threats
                 </p>
                 <div className="flex flex-col items-center justify-start space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

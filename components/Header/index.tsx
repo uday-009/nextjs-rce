@@ -49,7 +49,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-6">
+            <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -72,7 +72,7 @@ const Header = () => {
                 />
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full items-center justify-between px-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -104,9 +104,9 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex ">
+                  <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
-                      <li key={index} className="group relative mr-3">
+                      <li key={index} className="group relative ">
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
