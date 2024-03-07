@@ -15,6 +15,7 @@ const PricingTwo = () => {
           paragraph=" Choose Relate Central as your cybersecurity partner and take proactive steps to protect your business, mitigate risks, and achieve your cybersecurity goals with confidence. Contact us today to learn more about how our comprehensive cybersecurity services can help you safeguard your organization from cyber threats. "
           center = {false}
           width="100%"
+          mb="16px"
         />
 
         {/* <div className="w-full">
