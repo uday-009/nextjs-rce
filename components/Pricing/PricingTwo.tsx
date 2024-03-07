@@ -5,14 +5,14 @@ import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
 const PricingTwo = () => {
-  const [isMonthly, setIsMonthly] = useState(true);
+  // const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="pricing" className="relative z-10 py-6 md:py-10 lg:py-18 ">
       <div className="container">
         <SectionTitle
           title=""
-          paragraph=" Choose Relate Central as your cybersecurity partner and take proactive steps to protect your business, mitigate risks, and achieve your cybersecurity goals with confidence. Contact us today to learn more about how our comprehensive cybersecurity services can help you safeguard your organization from cyber threats. "
+          paragraph="Choose Relate Central as your cybersecurity partner and take proactive steps to protect your business, mitigate risks, and achieve your cybersecurity goals with confidence. Contact us today to learn more about how our comprehensive cybersecurity services can help you safeguard your organization from cyber threats. "
           center = {false}
           width="100%"
           mb="16px"
