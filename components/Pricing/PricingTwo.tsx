@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
@@ -8,15 +9,24 @@ const PricingTwo = () => {
   // const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-6 md:py-10 lg:py-18 ">
+    <section id="pricing" className="lg:py-18 relative z-10 py-6 md:py-10 ">
       <div className="container">
         <SectionTitle
           title=""
           paragraph="Choose Relate Central as your cybersecurity partner and take proactive steps to protect your business, mitigate risks, and achieve your cybersecurity goals with confidence. Contact us today to learn more about how our comprehensive cybersecurity services can help you safeguard your organization from cyber threats. "
-          center = {false}
+          center={false}
           width="100%"
           mb="16px"
         />
+        <div className="flex  items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 py-6">
+          <Link
+            href="https://relatecentral.com/book-health-assessment/"
+            className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+          >
+           Book a Call with us today to Learn More about how we can help you. 
+          </Link>
+          
+        </div>
 
         {/* <div className="w-full">
           <div
