@@ -13,7 +13,7 @@ const Pricing = () => {
         <SectionTitle
           title=""
           paragraph="With our expertise, dedication, and commitment to excellence, we empower organizations of all sizes to navigate the complexities of cybersecurity with confidence. Partner with Relate Central and experience the difference of working with a trusted cybersecurity partner. Our teams possess a wealth of knowledge and expertise that ensures we consistently provide comprehensive assistance in all aspects of the IT process. We collaborate with you to Identify, Develop, Implement, and Maintain a complete IT and Cybersecurity Program that adheres to all regulations. "
-          center
+          center = {false}
           width="100%"
           mb="16px"
         />
