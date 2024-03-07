@@ -8,14 +8,14 @@ const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="pricing" className="relative z-10 py-6 md:py-10 lg:py-18">
       <div className="container">
         <SectionTitle
-          title="When you choose Relate Central, you gain a trusted partner dedicated
-          to securing your organization's digital assets."
-          paragraph=" "
+          title=""
+          paragraph="With our expertise, dedication, and commitment to excellence, we empower organizations of all sizes to navigate the complexities of cybersecurity with confidence. Partner with Relate Central and experience the difference of working with a trusted cybersecurity partner. Our teams possess a wealth of knowledge and expertise that ensures we consistently provide comprehensive assistance in all aspects of the IT process. We collaborate with you to Identify, Develop, Implement, and Maintain a complete IT and Cybersecurity Program that adheres to all regulations. "
           center
           width="100%"
+          mb="16px"
         />
 
         {/* <div className="w-full">

@@ -22,7 +22,7 @@ const Footer = () => {
                     height={30}
                   />
                   <Image
-                    src="/images/logo/Logo-3.png"
+                    src="/images/logo/Logo-4.png"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -30,8 +30,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  We provide IT and Cybersecurity technical expertise to solve
-                  complex business problems.
+                Our goal is to safeguard and preserve your customer information and financial success.
                 </p>
                 <div className="flex items-center">
                   <a

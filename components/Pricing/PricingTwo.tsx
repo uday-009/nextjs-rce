@@ -11,13 +11,7 @@ const PricingTwo = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We believe in building strong partnerships with our clients, and our satisfaction guarantee
-
-          ensures that every project meets or exceeds expectations.
-          
-          Our vision is to enable a secure and safe digital environment for all businesses,
-          
-          regardless of their size. "
+          title="Choose Relate Central as your cybersecurity partner and take proactive steps to protect your business, mitigate risks, and achieve your cybersecurity goals with confidence. Contact us today to learn more about how our comprehensive cybersecurity services can help you safeguard your organization from cyber threats. "
           paragraph=" "
           center
           width="100%"
