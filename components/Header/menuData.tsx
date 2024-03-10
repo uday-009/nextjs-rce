@@ -16,13 +16,13 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "Secure Software Development",
-        path: "/about",
+        path: "/securesoftwaredevelopment",
         newTab: false,
       },
       {
         id: 42,
         title: "IT and Cybersecurity resources",
-        path: "/contact",
+        path: "/it-cybersecurity-resources",
         newTab: false,
       },
       {
